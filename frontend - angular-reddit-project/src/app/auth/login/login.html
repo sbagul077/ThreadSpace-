@@ -1,0 +1,58 @@
+<div class="login-section">
+    <div class="row justify-content-center">
+    <div class= "col-md-3"></div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header" style="text-align: center"><h4>Login</h4></div>
+            <div class="card-body">
+                <form [formGroup]="loginForm" (ngSubmit)="login()")>
+                    <div class="row mb-3">
+                        <label for="user_name" class="col-md-4 col-form-label text-md-end">Username</label>
+                        <div class="col-md-6">
+                            <!-- <input type="text" id="user_name" class="form-control" [formControlName] = "username" name = "user_name" required autofocus"> -->
+                            <input type="text" id="user_name" class="form-control" formControlName="username" name="user_name" required
+                                    autofocus>
+                            @if(loginForm.get('username')?.invalid && loginForm.get('username')?.touched){
+                                <span class="text-danger"> Please provide a valid username</span>
+                            }  
+                        </div>                        
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="password" class="col-md-4 col-form-label text-md-end">Password</label>
+                        <div class="col-md-6">
+                             <input type="password" id="password" class="form-control" formControlName="password" name="password" required>
+                             @if(loginForm.get('password')?.invalid && loginForm.get('password')?.touched){
+                                <span class="text-danger">Password cannot be empty</span>
+                             }
+                        </div>
+                    </div>
+
+                    <span class="col-md-6 offset-md-4">
+                        <button type="submit" class="login">
+                            Login
+                        </button>
+                        <span style="padding-left: 15px">New User? <a routerLink="/signup"> SIGN UP </a></span>
+                    </span>
+                    @if (isError){
+                        <div class = "login-failed">
+                            <p class="login-failed-text">
+                                Login Failed. Please check your credentials and try again.
+                            </p>
+                        </div>
+                    }
+
+                    @if (registerSuccessMessage){
+                        <div class = "register-success">
+                            <p class = "register-success-text">
+                                {{ registerSuccessMessage}}
+                            </p>
+                        </div>
+                    }
+                </form>                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+</div>
