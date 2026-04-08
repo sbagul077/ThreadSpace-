@@ -79,9 +79,9 @@ reddit-app/
 
 ##  Screenshots
 
-| Home Feed                      | Post Detail                           |
+| Home Feed                      | Login Page                            |
 | ------------------------------ | ------------------------------------- |
-| ![](docs/home.png)             | ![](docs/post-detail.png)             |
+| ![](docs/home.png)             | ![](docs/login.png)                   |
 
 | Create Post                           | Create Subreddit                           |
 | ------------------------------------- | ------------------------------------------ |
