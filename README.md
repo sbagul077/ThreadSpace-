@@ -24,6 +24,15 @@ This project demonstrates end-to-end development using **Spring Boot (backend)**
 
 ---
 
+##  Architecture
+
+- Frontend: Angular SPA
+- Backend: Spring Boot REST API
+- Auth: JWT-based authentication
+- Database: MySQL
+
+Frontend communicates with backend via REST APIs.
+
 ##  Features
 
 ###  Authentication
