@@ -81,38 +81,38 @@ reddit-app/
 
 ### 🏠 Home Feed
 
-![Home Feed](docs/screenshots/home.png)
+![Home Feed](docs/home.png)
 
 ### ✍️ Create Post
 
-![Create Post](docs/screenshots/create-post.png)
+![Create Post](docs/create-post.png)
 
 ### 💬 Post & Comments
 
-![Post Detail](docs/screenshots/post-detail.png)
+![Post Detail](docs/post-detail.png)
 
 ### 👤 User Profile
 
-![Profile](docs/screenshots/profile.png)
+![Profile](docs/profile.png)
 
 ### 🔐 Authentication
 
-![Login](docs/screenshots/login.png)
+![Login](docs/login.png)
 
 ### ⚙️ User Menu
 
-![Dropdown](docs/screenshots/dropdown.png)
+![Dropdown](docs/dropdown.png)
 
 
 ## 🖥️ Screenshots
 
 | Home Feed                      | Post Detail                           |
 | ------------------------------ | ------------------------------------- |
-| ![](docs/screenshots/home.png) | ![](docs/screenshots/post-detail.png) |
+| ![](docs/home.png) | ![](docs/post-detail.png) |
 
 | Create Post                           | Create Subreddit                           |
 | ------------------------------------- | ------------------------------------------ |
-| ![](docs/screenshots/create-post.png) | ![](docs/screenshots/create-subreddit.png) |
+| ![](docs/create-post.png) | ![](docs/create-subreddit.png) |
 
 ---
 
