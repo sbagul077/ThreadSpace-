@@ -1,4 +1,4 @@
-# 🚀 Reddit App (Full Stack)
+#  Reddit App (Full Stack)
 
 A full-stack Reddit-inspired web application where users can create posts, join communities, and interact through comments and voting.
 
